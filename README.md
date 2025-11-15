@@ -229,6 +229,6 @@ sudo apt update && sudo apt upgrade -y
 ```
 ┌───────────────────────────────┐
 │   ▶️  CLICK TO WATCH ON YOUTUBE   │
-│           [YT VIDEO]            │
+│           [[YT VIDEO](https://youtu.be/FJanTRhb6pc)]            │
 └───────────────────────────────┘
 ```
