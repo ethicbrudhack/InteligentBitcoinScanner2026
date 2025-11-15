@@ -16,58 +16,9 @@ https://youtu.be/FJanTRhb6pc
 email: hacker001ethical@proton.me
 
 🧵🪡FASTSCAN v2 — “Needle in Keyspace” 3D Diagram
-                                                              Z  (linear scan inside chunk)
-                              ^
-                              |
-                              |
-                              |                 HIT (key WITH balance)
-                              |                         *
-                              |                         ^
-                              |                         |
-                              |                tweak-add steps
-                              |                   inside chunk
-                              |                         |
-                              |      +----------------------------------+
-                              |      |             CHUNK N              |
-                              |      |         (dense slice)            |
-                              |      |                                  |
-                              |      |   o   <-- first key              |
-                              |      |   o                               |
-                              |      |   o                               |
-                              |      |   *   <-- HIT                     |
-                              |      |   o                               |
-                              |      |   o                               |
-                              |      |   o                               |
-                              |      +----------------------------------+
-                              |
-                              |
-        Y (stride jumps)      |
-        ^                     |
-        |                     |
-        |    (huge gaps)      |
-        |                     |
-        |      o  <-- key OUTSIDE chunk (no hit)
-        |                     |
-        |                     |
-        |      +----------------------------------+
-        |      |             CHUNK N+1            |
-        |      |   priv = R0 + (N+1)*stride       |
-        |      |   (far from HIT location)        |
-        |      |                                  |
-        |      |              o   <-- random      |
-        |      |              x   <-- NO BALANCE  |
-        |      +----------------------------------+
-        |
-        |      +----------------------------------+
-        |      |             CHUNK N+2            |
-        |      |     another stride jump          |
-        |      |                                  |
-        |      |                   o              |
-        |      +----------------------------------+
-        |
-        +-------------------------------------------------------------> X
-                                 (chunk index)
-
+                                                
+                         
+<img width="518" height="873" alt="image" src="https://github.com/user-attachments/assets/186f1d4a-9712-4f88-9d07-b4a0c6826535" />
 
 
 
