@@ -6,6 +6,8 @@
 
 ## 🚀 Overview
 
+email: hacker001ethical@proton.me
+
 **FASTSCAN v2** is a high‑performance, CPU‑only Bitcoin keyspace scanner optimized for scanning massive ranges with deterministic stride jumps and ultra‑fast `hash160` lookups from memory‑mapped address databases.
 
 Unlike GPU tools (BitCrack, VanitySearch, KeyHunt), FASTSCAN does **not** rely on CUDA, VRAM or external GPU hardware. Instead it leverages:
