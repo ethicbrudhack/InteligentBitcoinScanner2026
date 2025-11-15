@@ -219,3 +219,14 @@ sudo apt update && sudo apt upgrade -y
 ---
 
 *Generated README for **FASTSCAN v2** — place this `README.md` in your repo root. Good luck and code responsibly.*
+
+---
+
+## ▶️ YouTube Video
+
+```
+┌───────────────────────────────┐
+│   ▶️  CLICK TO WATCH ON YOUTUBE   │
+│           [YT VIDEO]            │
+└───────────────────────────────┘
+```
